@@ -12,8 +12,8 @@ import {
 import RNFS from 'react-native-fs'
 import { unzip } from 'react-native-zip-archive'
 import Sound from 'react-native-sound'
-import { initWhisper, libVersion, AudioSessionIos } from '../../src' // whisper.rn
-import type { WhisperContext } from '../../src'
+import { initWhisper, libVersion, AudioSessionIos } from 'whisper.rn' // whisper.rn
+import type { WhisperContext } from 'whisper.rn'
 import contextOpts from './context-opts'
 
 const sampleFile = require('../assets/jfk.wav')
