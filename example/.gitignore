@@ -1,0 +1,9 @@
+*.mlmodelc
+**/assets/*.bin
+**/assets/*.wav
+.xcode.env.local
+
+# Expo
+.expo
+dist/
+web-build/
